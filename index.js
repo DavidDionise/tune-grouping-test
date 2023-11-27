@@ -3,16 +3,13 @@ const _ = require("lodash")
 const data = require("./data.json")
 
 const tuningPatterns = _.uniq(
-    _.flatten(
-        data.map(d => d.tuningPatterns)
-    )
+    data.map(d => d.tuningPattern)
 )
 
 const groupedByPatterns = tuningPatterns.reduce((acc, pattern) => {
-    const dataWithPattern = data.filter(d => d.tuningPatterns.find(p => p == pattern))
     return {
         ...acc,
-        [pattern]: dataWithPattern
+        [pattern]: data.filter(d => d.tuningPattern == pattern)
     }
 }, {})
 

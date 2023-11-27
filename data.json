@@ -1,17 +1,17 @@
 [
     {
         "title": "Test 1",
-        "tunings": ["t1", "t2"],
-        "tuningPatterns": ["tg1"]
+        "tuning": "t1",
+        "tuningPattern": "tp1"
     },
     {
         "title": "Test 2",
-        "tunings": ["t2"],
-        "tuningPatterns": ["tg1", "tg2"]
+        "tuning": "t1",
+        "tuningPattern": "tp1"
     },
     {
         "title": "Test 3",
-        "tunings": ["t1", "t2", "t3"],
-        "tuningPatterns": ["t3"]
+        "tuning": "t3",
+        "tuningPattern": "t3"
     }
 ]
