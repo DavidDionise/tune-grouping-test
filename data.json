@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Test 1",
+        "tunings": ["t1", "t2"],
+        "tuningPatterns": ["tg1"]
+    },
+    {
+        "title": "Test 2",
+        "tunings": ["t2"],
+        "tuningPatterns": ["tg1", "tg2"]
+    },
+    {
+        "title": "Test 3",
+        "tunings": ["t1", "t2", "t3"],
+        "tuningPatterns": ["t3"]
+    }
+]
